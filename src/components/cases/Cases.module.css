@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-gap: 20px;
+    margin: 20px;
+    font-size: larger;
+}
+
+.row {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.resolve, .register{
+    text-align: center;
+    background-color: #606060;
+    color: white;
+    text-decoration: none;
+    border:none;
+    width: 120px;
+    height: 50px;
+    border-radius: 5%;
+    font-size: large;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.register {
+    margin-left: 80%;
+    width: 200px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1300px){
+    .register{
+        margin-left: auto;
+    }
+}
